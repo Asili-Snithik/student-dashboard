@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f7f9fc;
+}
+
+/* Navbar */
+.navbar {
+  background: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Main Layout */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2rem;
+  justify-content: center;
+}
+
+/* Card */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.card h3 {
+  margin-top: 0;
+}
+
+/* Inline Add Form */
+.inline-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.inline-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.inline-form button {
+  background: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.inline-form button:hover {
+  background: #218838;
+}
+
+/* Items */
+.item {
+  padding: 10px;
+  background: #f1f8ff;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.item strong {
+  display: block;
+  font-size: 1.1rem;
+}
+
+/* Login Page */
+.login-container {
+  background: white;
+  width: 350px;
+  margin: 100px auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.login-container button:hover {
+  background: #0056b3;
+}
+.hint {
+  color: #666;
+  font-size: 0.9rem;
+}
